@@ -11,6 +11,11 @@ function handleNoClick() {
     window.location.href = "jump_page.html";
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+        document.getElementById("title").textContent = "chia??? ^_^ v2.. dai clicca su Yes..";
+    }, 10000); 
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     const noButton = document.querySelector(".no-button");
